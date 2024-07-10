@@ -1,87 +1,96 @@
-# Frontend Mentor - QR code component
+# QR Code Component Project
 
-![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
+![Screenshot from 2024-07-10 16-03-03](https://github.com/Terafora/QR-Code-Component/assets/144109245/f91cd91a-82d0-40f4-9ff7-98bb66352069)
 
-## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
+Welcome to the QR Code Component project! This project is a simple front-end challenge from [Frontend Mentor](https://www.frontendmentor.io). The goal is to create a QR code component that displays a QR code and some accompanying text. This project is a great way to improve your front-end skills by working on a real-world project.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Table of Contents
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## Overview
 
-## The challenge
+The QR Code Component project consists of a simple web page that displays a QR code along with a heading and a paragraph of text. The design is fully responsive, ensuring it looks good on all devices.
 
-Your challenge is to build out this QR code component and get it looking as close to the design as possible.
+## Installation
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+To get started with the project, follow these steps:
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/qr-code-component.git
+    ```
 
-## Where to find everything
+2. **Navigate to the project directory:**
+    ```bash
+    cd qr-code-component
+    ```
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+3. **Open `index.html` in your preferred web browser.**
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+## Usage
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+Once you have the project set up, you can open `index.html` in your web browser to view the QR code component. The QR code links to the Frontend Mentor website, which is a great resource for improving your coding skills.
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+## Project Structure
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+Here's an overview of the project's structure:
 
-## Building your project
+```
+qr-code-component/
+├── images/
+│   ├── favicon-32x32.png
+│   └── image-qr-code.png
+├── styles.css
+└── index.html
+```
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+- `index.html`: The main HTML file that contains the structure of the webpage.
+- `styles.css`: The CSS file that styles the HTML content.
+- `images/`: Directory containing the images used in the project.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+## Technologies Used
 
-## Deploying your project
+- **HTML5:** For structuring the content of the webpage.
+- **CSS3:** For styling the webpage and making it responsive.
+- **Google Fonts:** For custom fonts used in the project.
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+## Contributing
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+If you would like to contribute to the project, feel free to submit a pull request. Contributions are always welcome!
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+1. **Fork the repository.**
+2. **Create a new branch:**
+    ```bash
+    git checkout -b feature-branch
+    ```
+3. **Make your changes and commit them:**
+    ```bash
+    git commit -m 'Add some feature'
+    ```
+4. **Push to the branch:**
+    ```bash
+    git push origin feature-branch
+    ```
+5. **Submit a pull request.**
 
-## Create a custom `README.md`
+## Acknowledgments
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+This project was inspired by a challenge from [Frontend Mentor](https://www.frontendmentor.io). Special thanks to them for providing such great resources for learning and improving front-end development skills.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+Challenge by [Frontend Mentor](https://www.frontendmentor.io?ref=challenge). Coded by [Charlotte Stone](#).
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+## Contact
 
-## Submitting your solution
+If you have any questions, feedback, or job opportunities, feel free to get in touch with Charlotte:
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- **Email**: [charlie.stone649@gmail.com](mailto:charlie.stone649@gmail.com)
+- **GitHub**: [Terafora](https://github.com/Terafora)
+- **LinkedIn**: [Charlotte Stone](https://www.linkedin.com/in/charlotte-stone-web/)
