@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -10,8 +12,8 @@ body {
 }
 
 #card {
-    width: 300px;
-    height: 400px;
+    width: 310px;
+    height: auto;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -21,20 +23,38 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 20px 16px;
 
 }
 
 #qr-code {
     display: block;
-    margin: 0 auto 10px auto;
-    width: 270px;
-    height: 270px;
+    width: 295px;
+    height: 295px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 #copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
     font-size: 15px;
-    text
+    text-align: center;
+    font-family: "Outfit", sans-serif";
+}
+
+#copy h1 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+#copy p {
+    margin-bottom: 10px;
+    color: hsl(217, 28%, 51%);
+    font-size: 1.25em;
 }
 
 .attribution {
